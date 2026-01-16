@@ -13,14 +13,14 @@ class ListPartners extends BaseListPartners
 
     public function getTitle(): string|Htmlable
     {
-        return __('Customer');
+        return __('invoices::filament/clusters/customers/resources/partners.pages.customer');
     }
 
     protected function getHeaderActions(): array
     {
         return [
             CreateAction::make()
-                ->label(__('New Customer'))
+                ->label(__('invoices::filament/clusters/customers/resources/partners.pages.new_customer'))
                 ->icon('heroicon-o-plus-circle'),
         ];
     }

@@ -37,7 +37,7 @@ class InvoicePlugin implements Plugin
                         NavigationItem::make('settings')
                             ->label(fn () => __('invoices::app.navigation.settings.label'))
                             ->url(fn () => Products::getUrl())
-                            ->group('Invoices')
+                            ->group(fn () => __('admin.navigation.invoice'))
                             ->sort(4)
                             ->visible(fn () => Products::canAccess()),
                     ]);

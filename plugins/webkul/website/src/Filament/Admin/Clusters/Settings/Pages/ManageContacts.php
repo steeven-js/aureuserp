@@ -20,7 +20,10 @@ class ManageContacts extends SettingsPage
 
     protected static ?string $slug = 'website/manage-contacts';
 
-    protected static string|UnitEnum|null $navigationGroup = 'Website';
+    public static function getNavigationGroup(): ?string
+    {
+        return __('admin.navigation.website');
+    }
 
     protected static ?int $navigationSort = 5;
 

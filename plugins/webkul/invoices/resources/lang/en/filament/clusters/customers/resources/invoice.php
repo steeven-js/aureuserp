@@ -6,4 +6,8 @@ return [
     'navigation' => [
         'title' => 'Invoices',
     ],
+
+    'pages' => [
+        'list' => 'List',
+    ],
 ];

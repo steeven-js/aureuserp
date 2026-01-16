@@ -15,4 +15,9 @@ class Customer extends Cluster
     {
         return __('invoices::filament/clusters/customers.navigation.group');
     }
+
+    public static function getClusterBreadcrumb(): ?string
+    {
+        return __('invoices::filament/clusters/customers.navigation.title');
+    }
 }

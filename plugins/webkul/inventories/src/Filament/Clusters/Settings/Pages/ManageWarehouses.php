@@ -26,7 +26,10 @@ class ManageWarehouses extends SettingsPage
 
     protected static ?string $slug = 'inventory/manage-warehouses';
 
-    protected static string|\UnitEnum|null $navigationGroup = 'Inventory';
+    public static function getNavigationGroup(): ?string
+    {
+        return __('admin.navigation.inventory');
+    }
 
     protected static ?int $navigationSort = 3;
 

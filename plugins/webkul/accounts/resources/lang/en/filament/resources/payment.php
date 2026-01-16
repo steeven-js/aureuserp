@@ -113,4 +113,15 @@ return [
         ],
     ],
 
+    'presets' => [
+        'customer_payments' => 'Customer Payments',
+        'vendor_payments'   => 'Vendor Payments',
+        'draft'             => 'Draft',
+        'in_process'        => 'In Process',
+        'sent'              => 'Sent',
+        'not_sent'          => 'No Sent',
+        'no_bank_matching'  => 'No Bank Matching',
+        'reconciled'        => 'Reconciled',
+    ],
+
 ];

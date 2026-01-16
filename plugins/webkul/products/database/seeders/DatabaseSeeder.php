@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
             PriceListSeeder::class,
             ProductCategorySeeder::class,
             ProductCombinationSeeder::class,
+            ProductSeeder::class,
         ]);
     }
 }

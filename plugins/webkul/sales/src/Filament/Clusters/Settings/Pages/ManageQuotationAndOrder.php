@@ -18,7 +18,10 @@ class ManageQuotationAndOrder extends SettingsPage
 
     protected static ?string $slug = 'sale/manage-quotation-and-order';
 
-    protected static string|\UnitEnum|null $navigationGroup = 'Sales';
+    public static function getNavigationGroup(): ?string
+    {
+        return __('admin.navigation.sale');
+    }
 
     protected static ?int $navigationSort = 2;
 

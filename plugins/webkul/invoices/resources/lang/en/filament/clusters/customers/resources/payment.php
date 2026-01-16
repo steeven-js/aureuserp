@@ -7,4 +7,6 @@ return [
         'title' => 'Payments',
         'group' => 'Invoices',
     ],
+
+    'customer_payments' => 'Customer Payments',
 ];
